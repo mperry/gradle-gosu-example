@@ -8,8 +8,8 @@ Uses:
 - Gosu 1.15.8
 
 References:
-- Gradle Gosu Plugin: https://github.com/gosu-lang/gradle-gosu-plugin
-- Github Gradle Gosu Plugin: https://plugins.gradle.org/plugin/org.gosu-lang.gosu
+- Github Gradle Gosu Plugin: https://github.com/gosu-lang/gradle-gosu-plugin
+Gradle Gosu Plugin: https://plugins.gradle.org/plugin/org.gosu-lang.gosu
 - Gradle manual: https://docs.gradle.org/current/userguide/userguide.html
 
 Running: `> gradlew`
