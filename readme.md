@@ -1,4 +1,8 @@
 
+# Gradle Gosu Project Example
+
+This is a simple example of a Gradle Gosu project using the Gradle Gosu plugin.
+
 Requirements:
 - Java 11
 
