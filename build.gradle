@@ -1,0 +1,36 @@
+
+
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "org.gosu-lang.gosu:gradle-gosu-plugin:6.1.0"
+  }
+}
+
+plugins {
+//    id 'org.gosu-lang.gosu' version '0.2.2'
+	//id 'java'
+	//id "org.gosu-lang.gosu" version "6.1.0"
+
+
+}
+
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+
+apply plugin: "java"
+apply plugin: "org.gosu-lang.gosu"
+
+
+dependencies {
+    compile 'org.gosu-lang.gosu:gosu-core-api:1.14.3'
+    //testCompile 'junit:junit:4.12'
+}
