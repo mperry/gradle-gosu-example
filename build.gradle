@@ -34,5 +34,5 @@ dependencies {
 //    compile 'org.gosu-lang.gosu:gosu-core-api:1.14.0'
     compile "org.gosu-lang.gosu:gosu-core-api:1.15.8"
 //    compile 'org.gosu-lang.gosu:gosu-core:1.14.3'
-	//testCompile 'junit:junit:4.12'
+	testCompile 'junit:junit:4.12'
 }
