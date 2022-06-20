@@ -1,5 +1,4 @@
 
-
 buildscript {
   repositories {
     maven {
@@ -15,22 +14,25 @@ plugins {
 //    id 'org.gosu-lang.gosu' version '0.2.2'
 	//id 'java'
 	//id "org.gosu-lang.gosu" version "6.1.0"
-
-
 }
-
 
 repositories {
     mavenLocal()
     mavenCentral()
 }
 
-
 apply plugin: "java"
 apply plugin: "org.gosu-lang.gosu"
 
+defaultTasks "build"
+
+ext {
+    version = "1.15.8"
+}
 
 dependencies {
-    compile 'org.gosu-lang.gosu:gosu-core-api:1.14.3'
-    //testCompile 'junit:junit:4.12'
+//    compile 'org.gosu-lang.gosu:gosu-core-api:1.14.0'
+    compile "org.gosu-lang.gosu:gosu-core-api:1.15.8"
+//    compile 'org.gosu-lang.gosu:gosu-core:1.14.3'
+	//testCompile 'junit:junit:4.12'
 }
